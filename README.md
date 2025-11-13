@@ -1,46 +1,25 @@
-# Mushroom Classification using Convolutional Neural Networks
-https://img.shields.io/badge/Python-3.8%252B-blue
-https://img.shields.io/badge/Framework-TensorFlow-orange
-https://img.shields.io/badge/Dataset-Kaggle-lightgrey
-
+Mushroom Classification using Convolutional Neural Networks
 This project was developed as a homework assignment for the "Neural Networks" course, focusing on the practical application of Convolutional Neural Networks (CNNs).
 
 Project Overview
-The primary goal was to build and train a CNN model to classify images of mushrooms into their respective genus categories. The project demonstrates a complete deep learning pipeline, from data handling to model training and evaluation.
+The goal was to build and train a CNN model for image classification of mushrooms into their respective genus categories, implementing a full deep learning pipeline.
 
 Dataset
-The model was trained and evaluated on the following dataset:
+Source: Mushrooms Classification (Common Genus) Images from Kaggle
 
-Mushrooms Classification (Common Genus) Images
+Technical Stack
+Language: Python
 
-Source: Kaggle
+Core Framework: TensorFlow/Keras
 
-Technical Implementation
-Programming Language: <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="16" height="16"/> Python
+Key Libraries: OpenCV, NumPy, Pandas, Matplotlib/Seaborn
 
-Frameworks & Libraries:
+Environment: Local machine with NVIDIA GeForce RTX 3050 GPU acceleration
 
-PyTorch for building, training, and evaluating the neural network.
-
-PIL for image preprocessing and augmentation.
-
-NumPy & Pandas for numerical operations and data manipulation.
-
-Matplotlib for data visualization and plotting results.
-
-Hardware & Environment:
-
-Environment: Local machine.
-
-Acceleration: NVIDIA GeForce RTX 3050 GPU.
-
-Processing: Leveraged CUDA cores for significant speed-up in training.
-
-Training & Results
-The custom CNN architecture was trained for a total of 25 minutes on the local hardware setup.
-
-The model achieved the following performance on the validation set:
+Training Results
+Training Time: ~25 minutes
 
 Validation Accuracy: 86.89%
 
-This result demonstrates the model's effective learning capability and its high potential for accurate mushroom genus classification.
+The model demonstrates strong performance in classifying mushroom species, achieving high accuracy while maintaining efficient training times thanks to hardware acceleration.
+
