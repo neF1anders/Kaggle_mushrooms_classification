@@ -5,16 +5,14 @@ This project was developed as a homework assignment for the "Neural Networks" co
 The goal was to build and train a CNN model for image classification of mushrooms into their respective genus categories, implementing a full deep learning pipeline.
 
 ## Dataset
-Source: Mushrooms Classification (Common Genus) Images from Kaggle
+Source: [Mushrooms Classification (Common Genus) Images from Kaggle](https://www.kaggle.com/datasets/maysee/mushrooms-classification-common-genuss-images/data)
 
 ## Technical Stack
-Language: Python
+Language: [Python](https://www.python.org/)
 
-Core Framework: PyTorch & torchvision
+Core Framework: [PyTorch](https://pytorch.org/) & torchvision
 
-Key Libraries: NumPy, Pandas, Matplotlib 
-
-Environment: Local machine with NVIDIA GeForce RTX 3050 GPU acceleration
+Key Libraries: [NumPy](https://numpy.org/), [Pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/) 
 
 ## Training Results
 Training Time: ~25 minutes
